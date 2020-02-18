@@ -85,7 +85,7 @@ lemonReady( function() {
 
 	// Loop items.
 	for ( var i = 0; i < items.length; i++ ) {
-		let item = items.length[ i ];
+		let item = items[ i ];
 
 		// Add a class.
 		item.classList.add( 'foo' );
