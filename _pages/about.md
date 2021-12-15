@@ -46,9 +46,7 @@ I've been building websites since the 90s and coding in WordPress since 2006. Ye
 
 ## Currently Working On:
 
-I work full-time at [Yoast](https://yoast.com/) as a sponsored WordPress Core Contributor.
-
-I am a representative of the [WordPress Themes Team](https://make.wordpress.org/themes/) and also maintain the [Gridd WordPress Theme](https://w.org/themes/gridd) and other open-source [wplemon](https://wplemon.com) projects.
+I work full-time at [Yoast](https://yoast.com/) as a sponsored WordPress Core Contributor, with a strong focus on sustainability and performance.
 
 --------------------------
 
