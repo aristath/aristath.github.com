@@ -79,3 +79,54 @@ Born in 1981 in Greece - where I still live, my extra skills include crochet, wo
 
 You can find me on [GitHub](https://github.com/aristath) and [Twitter](https://twitter.com/aristath).  
 If you're oldfashioned you can [send me an email](mailto:aristath@gmail.com) though I can't guarantee a prompt response, it's a mess and things tend to get lost there.
+
+<script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "person",
+  "identifier": "aristath",
+  "name": "Ari Stathopoulos",
+  "familyName": "Stathopoulos",
+  "givenName": "Aristidis",
+  "jobTitle": "Web Sustainability developer",
+  "height": "180cm",
+  "gender": "male",
+  "url": "https://aristath.github.io",
+  "sameAs": [
+    "https://www.facebook.com/aristath",
+    "https://www.linkedin.com/in/ari-stathopoulos-a5517114/",
+    "https://twitter.com/aristath",
+    "https://profiles.wordpress.org/aristath/",
+     "https://github.com/aristath"
+  ],
+  "knowsAbout": [ "Web Sustainability", "WordPress", "PHP", "JS", "Gutenberg" ],
+  "knowsLanguage": [ "Greek", "English", "French" ],
+  "image": "http://aristath.github.io/images/aristath.jpg",
+  "address": {
+   "@type": "PostalAddress",
+   "addressLocality": "Corinth",
+   "postalCode": "20132",
+   "addressCountry": "Greece"
+  },
+  "email": "aristath@gmail.com",
+  "birthDate": "1981-03-06",
+  "birthPlace": "Thessaloniki, Greece",
+  "telephone": "+306933272747",
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Yoast",
+    "url": "https://yoast.com/",
+    "logo": "https://yoast.com/app/uploads/2020/09/Yoast_Icon_SocialMedia_500x500.png"
+  },
+  "hasOccupation": [
+    {
+      "@type": "Role",
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "WordPress Core Developer"
+      },
+      "startDate": "2021"
+    }
+  ]
+}
+</script>
