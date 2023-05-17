@@ -88,6 +88,7 @@ If you're oldfashioned you can [send me an email](mailto:aristath@gmail.com) tho
   "name": "Ari Stathopoulos",
   "familyName": "Stathopoulos",
   "givenName": "Aristidis",
+  "additionalName": ["Αριστείδης Σταθόπουλος", "Άρης Σταθόπουλος", "Aris Stathopoulos", "Aristeidis Stathopoulos"],
   "jobTitle": "Web Sustainability developer",
   "height": "180cm",
   "gender": "male",
