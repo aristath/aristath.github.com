@@ -83,7 +83,7 @@ If you're oldfashioned you can [send me an email](mailto:aristath@gmail.com) tho
 <script type='application/ld+json'>
 {
   "@context": "http://www.schema.org",
-  "@type": "person",
+  "@type": "Person",
   "identifier": "aristath",
   "name": "Ari Stathopoulos",
   "familyName": "Stathopoulos",
