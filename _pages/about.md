@@ -46,12 +46,13 @@ I've been building websites since the 90s and coding in WordPress since 2006. Ye
 
 ## Currently Working On:
 
-I work full-time at [Yoast](https://yoast.com/) as a sponsored WordPress Core Contributor, with a strong focus on sustainability and performance.
+I work full-time at [Emilia Capital](https://emilia.capital/) as a sponsored WordPress Core Contributor, with a strong focus on sustainability and performance.
 
 --------------------------
 
 ## Previous Work:
 
+* **2020-2023** Sponsored WordPress Core contributor at [yoast.com](https://yoast.com).
 * **2020**: Part of the Themes Team, contributed to the twentytwenty WordPress Theme.
 * **2015 - 2020**: Senior Developer at [theme-fusion](https://theme-fusion.com/), working on the [Avada theme](https://themeforest.net/item/avada-responsive-multipurpose-theme/2833226).
 * **2014 - 2020**: Created and maintained the [Kirki Customizer Framework](https://w.org/plugins/kirki) (open-source)
