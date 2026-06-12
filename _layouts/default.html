@@ -3,27 +3,17 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-	<!-- Page Info -->
-	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image }}">
-	<title>{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}</title>
-	<meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
-
-	<!-- Twitter Card -->
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}">
-	<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% endif %}">
-	<meta name="twitter:image:src" content="{{ site.url }}{{ page.featured_image }}">
-
-	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
-	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{% endif %}" />
-	<meta property="og:image" content="{{ site.url }}{{ page.featured_image }}" />
-
-	<!-- Styles -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image }}">
 	<link rel="stylesheet" href="/css/style.css">
+
+	{% seo %}
+	{% feed_meta %}
+	{% if page.featured_image %}
+	<meta property="og:image" content="{{ page.featured_image | absolute_url }}">
+	<meta name="twitter:image" content="{{ page.featured_image | absolute_url }}">
+	{% endif %}
 </head>
 
 <body>

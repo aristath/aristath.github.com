@@ -1,4 +1,18 @@
-site: Ari Stathopoulos
+title: Ari Stathopoulos
+description: Software Architect, Accessibility & Sustainability evangelist, Human.
+url: https://aristath.github.io
+author: Ari Stathopoulos
+lang: en
+
+twitter:
+  username: aristath
+  card: summary_large_image
+
+social:
+  name: Ari Stathopoulos
+  links:
+    - https://twitter.com/aristath
+    - https://github.com/aristath
 
 collections:
   pages:
@@ -48,7 +62,15 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
 paginate: 6
 paginate_path: "/blog/page:num/"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
   
