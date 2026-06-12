@@ -11,7 +11,7 @@ Wow, I haven't written a post here in 6 years... I think it's time I start again
 
 I was using Claude, ChatGPT, Cursor, and others... All of them at once. Each of them has its pros and cons, each of them is best at something, and they all have some gaps that another one fills beautifully. However, the bills just started piling up. And it's not like I could just cancel one of them because I kept hitting the limits of the max plans on all of them. At some point, it became clear that paying "rent" for AI was unsustainable long-term. So an investment was made to become somewhat independent. 
 
-When I was thinking of starting this journey, I had a chat with [Joost de Valk](https://joost.blog/), and as a result of that discussion, the initial (**substantial**) funding for this journey was from my employer, [emilia.capital](https://emilia.capital). I then continued by expanding the build with more compute over the course of months - and I fear it's not done yet 😅
+When I was thinking of starting this journey, I had a great discussion (as always) with [Joost de Valk](https://joost.blog/), and as a result of that discussion, the initial (**substantial**) funding for this journey was from my employer, [emilia.capital](https://emilia.capital). I then continued by expanding the build with more compute over the course of months - and I fear it's not done yet 😅
 
 ---
 
