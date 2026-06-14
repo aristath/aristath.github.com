@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "My AI stack"
-permalink: "blog/my-ai-stack"
+title: "My journey to AI independence so far"
+permalink: "blog/ai-independence-journey"
 categories:
   - AI
   - Hardware
