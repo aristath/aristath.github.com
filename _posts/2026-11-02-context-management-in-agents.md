@@ -6,12 +6,6 @@ categories:
   - AI
 ---
 
-## TL;DR
-
-Instead of summarizing the whole conversation, we compact each message individually. Clara gets the latest 20 messages verbatim. Older messages stay in context as individual summaries when they have at least 50 words; shorter messages keep their original wording. Clara has tools to read the originals when she needs more detail. When the conversation grows beyond her 256k context window, we drop the oldest messages from context. They stay saved, and she can retrieve them with the same tools.
-
----
-
 In my [previous post](/blog/ai-independence-journey) I wrote about my local AI setup, the hardware, and some of the things I built to make it useful. One of the projects I've been working on since then is Clara, a self-hosted personal assistant. I have not open-sourced her codebase yet, but it's a project I've been working on for the past year for my own personal needs. OpenClaw and all alternatives just did not do what I needed, and the mental load they were carrying was just too much for me. There's a lot going on in that project, but for this post I want to focus on one specific part: How I chose to keep a conversation going without constantly filling the model's context window.
 
 The obvious solution (and what I was using for the first few months) is context compaction. At some point the conversation gets too large, so the "traditional" approach is to summarize it and continue from that summary. It's a reasonable approach, it's what we are familiar with because it's what everyone else does, and it's relatively easy to implement. But for Clara I ran into issues with that approach and wanted something a little different.
@@ -33,6 +27,12 @@ So what I did, was think about how I perceive **my own** thinking processes:
 - Something that we discussed 5 hours ago is not even in there, but if I think about it a bit, I can recall the details.
 
 So I decided to model the way Clara works, after how I perceive my own brain functions.
+
+## TL;DR
+
+Instead of summarizing the whole conversation, we compact each message individually. Clara gets the latest 20 messages verbatim. Older messages stay in context as individual summaries when they have at least 50 words; shorter messages keep their original wording. Clara has tools to read the originals when she needs more detail. When the conversation grows beyond her 256k context window, we drop the oldest messages from context. They stay saved, and she can retrieve them with the same tools.
+
+---
 
 ## What Clara does
 
