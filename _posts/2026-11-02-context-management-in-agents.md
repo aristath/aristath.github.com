@@ -32,6 +32,8 @@ So I decided to model the way Clara works, after how I perceive my own brain fun
 
 Instead of summarizing the whole conversation, we compact each message individually. Clara gets the latest 20 messages verbatim. Older messages stay in context as individual summaries when they have at least 50 words; shorter messages keep their original wording. Clara has tools to read the originals when she needs more detail. When the conversation grows beyond her 256k context window, we drop the oldest messages from context. They stay saved, and she can retrieve them with the same tools.
 
+**EDIT, 2026-11-16: While the post is a viable route and the concept is solid, one HUGE drawdown is that this method invalidates prompt and KV caches. If these are important to you then don't try it.**
+
 ---
 
 ## What Clara does
